@@ -53,10 +53,11 @@ fn main() {
             }
         }
         maze.push(row);
-        
     }
-    
+
+    println!("This is the maze:");
     print_maze(&maze, number_of_rows, number_of_columns);
+    println!("");
     println!("Entry point: {:#?}", entry);
     println!("Exit point: {:#?}", exit);
     io::stdout().flush().unwrap();
