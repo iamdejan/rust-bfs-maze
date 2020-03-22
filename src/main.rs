@@ -150,7 +150,6 @@ fn main() {
     println!("Exit point: {:#?}", exit);
     println!("");
 
-    //TODO: BFS
     let result: Result<u64, &'static str> = bfs(maze, entry, exit);
     match result {
         Ok(v) => {
