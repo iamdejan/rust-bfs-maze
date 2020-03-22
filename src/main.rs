@@ -98,7 +98,7 @@ fn bfs(maze: Vec<Vec<char>>, entry: Point, exit: Point) -> Result<u64, &'static 
 
                 let next_row = next_row as usize;
                 let next_column = next_column as usize;
-                if maze[next_row as usize][next_column as usize] == '#' {
+                if maze[next_row][next_column] == '#' {
                     continue;
                 }
 
