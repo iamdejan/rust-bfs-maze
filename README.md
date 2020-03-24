@@ -14,8 +14,14 @@ To run the program and use the sample maze, just run:
 If you want to use your own input, just run `$ cargo run`.
 
 ### STDIN Input Format
-TBD
+The input format is as follows:
+```
+[number of rows]
+[number of columns]
+[maze]
+```
+
+See `input1.txt` and `input2.txt` for examples.
 
 ## Authors
-
 - **Giovanni Dejan** - [iamdejan](https://github.com/iamdejan)
