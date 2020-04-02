@@ -1,0 +1,23 @@
+This is the maze:
+#X#########
+#         #
+### # ### #
+# #       #
+# # #######
+#   # # # #
+# ### # # #
+# #     # #
+# ### # # #
+#     #   #
+#########E#
+
+Entry point: Point {
+    r: 10,
+    c: 9,
+}
+Exit point: Point {
+    r: 0,
+    c: 1,
+}
+
+BFS result is 26

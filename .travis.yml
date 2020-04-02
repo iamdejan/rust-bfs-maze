@@ -1,0 +1,9 @@
+dist: bionic
+
+language: rust
+rust:
+  - 1.42.0
+
+script:
+  - cargo build --verbose --all
+  - sh validator.sh
