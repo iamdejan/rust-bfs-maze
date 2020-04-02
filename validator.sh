@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for ((i = 1; i <= 2; i++)); do
   cargo -q run < input${i}.txt > output${i}-actual.txt
   diff output${i}-actual.txt output${i}-expected.txt
