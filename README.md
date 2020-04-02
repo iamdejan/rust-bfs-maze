@@ -1,4 +1,7 @@
 # Rust BFS Maze
+
+[![Build Status](https://travis-ci.org/iamdejan/rust-bfs-maze.svg?branch=master)](https://travis-ci.org/iamdejan/rust-bfs-maze)
+
 This is a simple program to find minimum number of steps to go out from the maze. This repository contains code from [my LinkedIn article](https://www.linkedin.com/pulse/help-i-got-lost-csse-giovanni-dejan/).
 
 ## Getting Started
